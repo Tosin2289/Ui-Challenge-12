@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
                     padding: const EdgeInsets.all(12.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children:const [
                         CircleAvatar(
                           radius: 24,
                           backgroundImage: AssetImage('assets/australia.jpeg'),
@@ -108,7 +108,7 @@ class HomePage extends StatelessWidget {
                     padding: const EdgeInsets.all(12.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children:const [
                         CircleAvatar(
                           radius: 24,
                           backgroundImage: AssetImage('assets/america.png'),
